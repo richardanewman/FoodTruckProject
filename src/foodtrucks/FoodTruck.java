@@ -1,43 +1,46 @@
 package foodtrucks;
 
 public class FoodTruck {
-	
-	private int uniqueId = 0;
+
+	private int nextTruckId = 0;
 	private String name;
 	private double rating;
-	
+
 	public FoodTruck() {
 		super();
 	}
-	
-	public FoodTruck(String name, double rating) {
+
+	public FoodTruck(int count, String name, double rating) {
 		super();
+		this.nextTruckId = count;
 		this.name = name;
 		this.rating = rating;
-		this.uniqueId = setUniqueId();
+		
 	}
-	
-	public int getUniqueId() {
-		return uniqueId;
+
+	public int getNextId() {
+		return nextTruckId;
+		
 	}
-	
-	public int setUniqueId() {
-		this.uniqueId = uniqueId++;
-		return uniqueId;
+
+	public void setNextId(int count) {
+		this.nextTruckId = count;
+		
+
 	}
-	
+
 	public String getName() {
 		return name;
 	}
-	
+
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	public double getRating() {
 		return rating;
 	}
-	
+
 	public void setRating(double rating) {
 		this.rating = rating;
 	}
@@ -45,13 +48,20 @@ public class FoodTruck {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("FoodTruck [name=");
+		builder.append("FoodTruck [ID=");
+		builder.append(nextTruckId);
+		builder.append(", name=");
 		builder.append(name);
 		builder.append(", rating=");
 		builder.append(rating);
 		builder.append("]");
 		return builder.toString();
 	}
+	public void displayTrucks() {
+	    String trucks = this.toString();
+	    System.out.println(trucks);
+	  }
+
 	
 
 }
