@@ -2,7 +2,7 @@
 
 ### Week 2 Homework Project for Skill Distillery
 
-###Overview
+### Overview
 
 This program simulates a food truck rating interface. Users are prompted to enter up to five food trucks, give them a name, type of food served, and a rating.Each truck is given a unique ID number but this is not inputed by the user. The user can quit before entering five trucks and the program will continue. The user is then prompted with a new menu to either display all trucks with all values, average rating for all trucks entered, or the highest rated truck with all its values. The user should be able to continue selecting items or quit the program at anytime. This program is not linked to a database, so all data enter will be lost after the program exits.
 
@@ -10,7 +10,7 @@ This program simulates a food truck rating interface. Users are prompted to ente
 
 Java Version 1.8, Eclipse IDE, Git, Github, Atom
 
-###Topics Applied
+### Topics Applied
 
 The primary topics applied from Week 2 at Skill Distillery were Objects/Classes, Encapsulation, and Visibility.
 
@@ -32,7 +32,7 @@ Clone with HTTPS:
 
 https://github.com/richardanewman/FoodTruckProject.git
 
-##Context
+## Context
 
 Below you will find a copy of the assignment's tasks. I am providing this context for anyone evaluating my code. We were not given a boilerplate. For better or worse, the code is my own. The only resources referenced were from the prior weeks course material and my class notes. I do not like to copy and paste code. I am attending this bootcamp so that I can thoroughly understand how to properly develop software using Java.
 
@@ -45,14 +45,14 @@ You will define a FoodTruck class with fields for a unique numeric id, a name ("
 
 You will create a separate class with a main method that starts the program. It will have an array to store up to five FoodTruck objects. The main method of this class is the only static method in the entire project.
 
-##User Stories
-###User Story 1
+## User Stories
+### User Story 1
 The user is prompted to input the name, food type, and rating for up to five food trucks. For each set of input, a FoodTruck object is created, its fields set to the user's input, and it is added to the array. The truck id is not input by the user, but instead assigned automatically in the FoodTruck constructor from a static field that is incremented as each truck is created.
 
-###User Story 2
+### User Story 2
 If the user inputs quit for the food truck name, input ends immediately and the program continues.
 
-###User Story 3
+### User Story 3
 After input is complete, the user sees a menu from which they can choose to:
 
 List all existing food trucks.
@@ -60,10 +60,10 @@ See the average rating of food trucks.
 Display the highest-rated food truck.
 Quit the program.
 
-###User Story 4
+### User Story 4
 After choosing a menu item, the user sees the menu again and can choose another item until the choose to quit.
 
-###Grading
+### Grading
 This is a graded project. You are expected to have your project completed by the start of class next week.
 
 You will be given either a pass or fail based on whether your code works given all of the following test conditions:
