@@ -19,14 +19,15 @@ public class FoodTruckApp {
 		Scanner kb = new Scanner(System.in);
 		String inputName = "", inputType = "";
 		double inputRating;
-		System.out.println("***********************************************************");
-		System.out.println("*          Welcome to Food Truck Rating App               *");
-		System.out.println("***********************************************************");
-		System.out.println("*       Please enter and rate up to five food trucks.     *");
-		System.out.println("* Enter the truck's name, food type, and rating 0.0-10.0  *");
-		System.out.println("*  0.0 == worst food ever and 10.0 == better than mom's   *");
-		System.out.println("*         You will be prompted for each entry field.      *");
-		System.out.println("***********************************************************");
+		System.out.println("****************************************************************");
+		System.out.println("*                Welcome to Food Truck Rating App              *");
+		System.out.println("****************************************************************");
+		System.out.println("*          Please enter and rate up to five food trucks.       *");
+		System.out.println("*    Enter the truck's name, food type, and rating 0.0-10.0    *");
+		System.out.println("*     0.0 == worst food ever and 10.0 == better than mom's     *");
+		System.out.println("*           You will be prompted for each entry field.         *");
+		System.out.println("* If you have less than five entries, type 'quit' to continue. *");
+		System.out.println("****************************************************************");
 
 		while (count < 5) {
 
