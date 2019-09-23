@@ -18,7 +18,8 @@ The primary topics applied from Week 2 at Skill Distillery were Objects/Classes,
 
 I found that there was a small gap between the material covered during the week and the weekend's assignment. Mainly the addition of user input used to create an instance of an object which filled an array of objects instead of simply outputting data which is embedded with the code. But mentally processing the gap only helped to clarify and solidify the material covered. Incrementing the static field gave me a little trouble at first but found the error was actually in the toString since I had changed variable names.
 
-The introduction of Encapsulation this week has shown me the importance of hiding internal state and requiring interactions to be performed through an object's methods. This exercise developed a greater appreciation for Encapsulation and I can see the importance of using Encapsulation for real world application. I especially like the use of going so far as to create a copy of an array to use as a display instead of displaying the original array as an added measure of security.
+The introduction of Encapsulation this week has shown me the importance of hiding internal state and requiring interactions to be performed through an object's methods. This exercise developed a greater appreciation for Encapsulation, and I can see the importance of using Encapsulation for real world application. I especially like the use of going so far as to create a copy of an array to use as a display instead of displaying the original array as an added measure of security. We are being inculcated with the fact that if you know a particular piece of
+data's address, you can change that data. This is very bad for malicious actors and for naive users. Code needs to run as expected and providing another layer only helps to ensure data is protected and our programs continue running as designed.
 
 ### How to Run
 
@@ -34,7 +35,7 @@ https://github.com/richardanewman/FoodTruckProject.git
 
 ## Context
 
-Below you will find a copy of the assignment's tasks. I am providing this context for anyone evaluating my code. We were not given a boilerplate. For better or worse, the code is my own. The only resources referenced were from the prior weeks course material and my class notes. I do not like to copy and paste code. I am attending this bootcamp so that I can thoroughly understand how to properly develop software using Java.
+Below you will find a copy of the assignment's tasks. I am providing this context for anyone evaluating my code. We were not given a boilerplate. For better or worse, the code is my own. The only resources referenced were from the prior week's course material and my class notes. I do not like to copy and paste code. I am attending this bootcamp so that I can thoroughly understand how to properly develop software using Java.
 
 ### Task Overview Provided by Skill Distillery
 
